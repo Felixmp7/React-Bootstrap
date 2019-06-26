@@ -7,16 +7,11 @@ function App() {
   return (
     <Container
       style={{ background: 'lightblue'}}
-      fluid={true}
+      // fluid
       >
         <Row>
-          <Col style={{border: '1px solid black'}}>1 of 2</Col>
-          <Col style={{border: '1px solid black'}}>2 of 2</Col>
-        </Row>
-        <Row>
-          <Col style={{border: '1px solid black'}}>1 of 2</Col>
-          <Col style={{border: '1px solid black'}}>2 of 2</Col>
-          <Col style={{border: '1px solid black'}}>3 of 3</Col>
+          <Col lg={3} style={{background: 'yellow'}}>1 of 2</Col>
+          <Col lg={9} style={{background: 'blue'}}>2 of 2</Col>
         </Row>
     </Container>
   );
