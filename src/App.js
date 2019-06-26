@@ -5,7 +5,10 @@ import Container from 'react-bootstrap/Container'
 
 function App() {
   return (
-    <Container style={{ background: 'lightblue'}}>
+    <Container
+      style={{ background: 'lightblue'}}
+      fluid={true}
+      >
       Hello World
     </Container>
   );
