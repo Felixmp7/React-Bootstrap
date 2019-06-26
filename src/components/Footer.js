@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <div className="Container">
       <Container>
-        <Row>
-          <Col>Preguntas Frecuentes</Col>
-          <Col>Contactanos</Col>
-          <Col>Prensa</Col>
-          <Col>Conferencias</Col>
-          <Col>Terminos y Condiciones</Col>
-          <Col>Privacidad</Col>
-          <Col>Estudiantes</Col>
+        <Row className="text-center">
+          <Col lg md={4} className="p-3">Preguntas Frecuentes</Col>
+          <Col lg md={4} className="p-3">Contactanos</Col>
+          <Col lg md={4} className="p-3">Prensa</Col>
+          <Col lg md={3} className="p-3">Conferencias</Col>
+          <Col lg md={3} className="p-3">Terminos y Condiciones</Col>
+          <Col lg md={3} className="p-3">Privacidad</Col>
+          <Col lg md={3} className="p-3">Estudiantes</Col>
         </Row>
       </Container>
     </div>
