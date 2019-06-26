@@ -8,8 +8,11 @@ function App() {
   return (
     <Container>
         <Grid1 />
+        <hr/>
         <Grid2 />
+        <hr/>
         <Grid3 />
+        <hr/>
     </Container>
   );
 }
