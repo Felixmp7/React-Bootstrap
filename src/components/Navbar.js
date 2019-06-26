@@ -5,7 +5,7 @@ import PlatziLogo from '../assets/images/platzi-logo.png'
 
 const NavbarContainer = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar fixed="top" bg="dark" variant="dark">
       <Navbar.Brand>
         <img
           alt="PlatziLogo"
